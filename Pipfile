@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+alembic = "*"
+ipdb = "*"
+faker = "*"
+prettycli = "*"
+simple-term-menu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.13"
